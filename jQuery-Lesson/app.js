@@ -1,3 +1,5 @@
 $(function(){
-  $('.box1').hide();
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
+  });
 });
